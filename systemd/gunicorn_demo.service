@@ -6,4 +6,4 @@ User=rohit
 Group=rohit
 WorkingDirectory=/Gunicorn/gunicorn_demo
 EnvironmentFile=/Gunicorn/etc/gunicorn_demo.env
-ExecStart=/Gunicorn/gunicorn_env/bin/gunicorn config.wsgi
+ExecStart=/Gunicorn/gunicorn_env/bin/gunicorn config.wsgi --config /Gunicorn/etc/gunicorn.conf.py
